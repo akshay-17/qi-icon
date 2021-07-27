@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'qi-font-icons';
+  src:  url('fonts/qi-font-icons.eot?q6h6o8');
+  src:  url('fonts/qi-font-icons.eot?q6h6o8#iefix') format('embedded-opentype'),
+    url('fonts/qi-font-icons.ttf?q6h6o8') format('truetype'),
+    url('fonts/qi-font-icons.woff?q6h6o8') format('woff'),
+    url('fonts/qi-font-icons.svg?q6h6o8#qi-font-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="qi-icon"], [class*=" qi-icon"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'qi-font-icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.qi-iconTrining-icon:before {
+  content: "\e900";
+}
